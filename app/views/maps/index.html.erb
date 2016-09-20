@@ -5,13 +5,18 @@
 </div>
 
 <div id="menu_container">
+  <div id="preloader" style="display:none">
+    <%= render "preloader" %>
+  </div>
+  <div id="inner_menu_container">
+  	<div id ="show_results">
+  	</div>
 
-	<div id="preloader" style="display:none">
-		<%= render "preloader" %>
-	</div>
+  	<%= render "menu" %>
+  </div>
+</div>
 
-	<div id ="show_results">
-	</div>
+<div id="logo">
+  <img id="hw_logo" src="<%=asset_path('hw_logo.png')%>">
 
-	<%= render "menu" %>
 </div>

@@ -4,12 +4,19 @@
   padding: 0 26.5px 0 0;
   margin-top: -5px;
 }
+.side-nav .collapsible-body li.active, .side-nav.fixed .collapsible-body li.active {
+    background-color: #fff;
+}
 
+
+.userView {
+  background-image: linear-gradient(to top right, #2c3e50, #edf0f1);
+}
 
 #left_nav_bar {
   position: fixed;
   width: 50px;
-  background-color: #c62828;
+  background-color: #e64c3c;
   height: 100%;
   top: 0px;
   z-index: 1000;
@@ -38,7 +45,7 @@
 }
 
 #bottom {
-  top: 78%;
+  top: 73%;
 }
 
 .favorite_item {
@@ -83,7 +90,19 @@
 
 }
 .fav-name-link:hover {
-  color: #c62828;
+  color: #e64c3c;
 
 }
+
+#circleTime{
+  cursor: pointer;
+  padding-top: 4px;
+}
+
+.fav-hour-text {
+ padding: 0;
+    font-size: 12px;
+    margin-bottom: -8px;
+}
+
 
